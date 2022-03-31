@@ -103,3 +103,19 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # Crypto
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 BOARD_USES_METADATA_PARTITION := true
+
+# SHRP Stuff
+SHRP_PATH := device/xiaomi/courbet
+SHRP_MAINTAINER := Droneship
+SHRP_DEVICE_CODE := Courbet
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+INC_IN_REC_MAGISK := true
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
